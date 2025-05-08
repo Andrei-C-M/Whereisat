@@ -1,0 +1,22 @@
+.events {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.orders__total {
+    color: var(--color-text);
+    font-size: 19px;
+    line-height: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.orders__sum {
+    color: var(--color-text);
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px var(--color-primary);
+}

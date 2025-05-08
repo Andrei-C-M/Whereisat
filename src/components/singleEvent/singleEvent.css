@@ -1,0 +1,66 @@
+.event {
+    display: flex;
+    cursor: pointer;
+    width: 90%;
+    margin: 0.5em;
+  }
+  
+  .eventDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
+    border-radius: 3px;
+    text-align: center;
+    width: 66px;
+    height: 66px;
+  }
+  
+  .eventDay {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .eventMonth {
+    font-size: 12px;
+  }
+  
+  .eventDetails {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    width: 350px;
+    margin-left: 20px;
+    border-bottom: 1px solid white;
+  }
+  
+  .eventAct {
+    font-family: 'fira sans', sans-serif;
+    color: var(--color-text);
+    font-size: 22px;
+  }
+  
+  .eventVenue {
+    color: var(--color-text);
+    font-style: italic;
+    font-size: 12px;
+  }
+  
+  .eventTime {
+    color: var(--color-text);
+    font-size: 14px;
+  }
+  
+  .eventCost {
+    position: absolute;
+    font-size: 22px;
+    font-weight: 800;
+    bottom: 0;
+    right: 0;
+    color: var(--color-secondary);
+  }
+  

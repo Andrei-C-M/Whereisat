@@ -1,0 +1,76 @@
+.eventInfo {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .eventInfoTag {
+    font-size: 19px;
+    color: var(--color-text);
+    font-style: italic;
+    font-weight: 200;
+    max-width: 200px;
+  }
+  
+  .eventInfoAct {
+    font-size: 33px;
+    font-family: 'sansitaone', sans-serif;
+    color: var(--color-primary);
+  }
+  
+  .eventInfoWhen {
+    font-size: 19px;
+    color: var(--color-secondary);
+    font-weight: 500;
+    line-height: 2em;
+  }
+  
+  .eventInfoWhere {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--color-text);
+    font-weight: 200;
+  }
+  
+  .eventInfoTickets {
+    width: 230px;
+    height: 130px;
+    color: var(--color-text);
+    border: 1px solid var(--color-primary);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .eventInfoCost {
+    font-size: 32px;
+    padding: 0.7em;
+    font-weight: 500;
+  }
+  
+  .eventInfoAmount {
+    display: flex;
+    height: 50px;
+    font-size: 28px;
+    font-weight: 200;
+    border-top: 1px solid var(--color-primary);
+    cursor: pointer;
+  }
+  
+  .eventInfoDecrement,
+  .eventInfoIncrement,
+  .eventInfoNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .eventInfoNumber {
+    width: 65px;
+    border-left: 1px solid var(--color-primary);
+    border-right: 1px solid var(--color-primary);
+  }
+  

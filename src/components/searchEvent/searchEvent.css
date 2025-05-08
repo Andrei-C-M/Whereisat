@@ -1,0 +1,21 @@
+.searchEvent {
+  position: relative;
+  margin: 1em auto;
+  width: 250px;
+}
+
+.searchEventInput {
+  padding: 8px 8px 8px 40px;
+  width: 250px;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.searchEventIco {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  color: var(--color-primary);
+  pointer-events: none;
+}

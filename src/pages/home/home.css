@@ -1,0 +1,18 @@
+.home {
+    margin-top: 9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.home__logo {
+    width: 182px;
+}
+
+.home__slogan {
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 0.5em;
+}

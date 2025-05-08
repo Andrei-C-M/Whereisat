@@ -1,0 +1,83 @@
+.passCard {
+  height: 500px;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5em;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.passCardLabel {
+  text-align: left;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-left: 8px;
+  margin-top: 8px;
+  height: 15px;
+}
+
+.passCardContent {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.passCardHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 0.5px dotted rgba(0, 0, 0, 0.4);
+}
+
+.passCardContent h2 {
+  font-size: 26px;
+}
+
+.passCardContent p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.passCardVenue {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 0.5px dotted rgba(0, 0, 0, 0.4);
+  background-color: rgb(230, 227, 227);
+}
+
+.passCardTimeBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: 0.5px dotted rgba(0, 0, 0, 0.4);
+}
+
+.passCardTimeItem {
+  flex: 1;
+  height: 100%;
+  border-right: 0.5px dotted rgba(0, 0, 0, 0.4);
+}
+
+.passCardMeta {
+  width: 100%;
+  border-bottom: 0.5px dotted rgba(0, 0, 0, 0.4);
+}
+
+.passCardBarcode {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.barcodeBox {
+  padding-bottom: 10px;
+}

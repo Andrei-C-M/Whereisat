@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #f06493;
+  --color-secondary: #33b3ae;
+  --color-background: #262347;
+  --color-text: #FFFFFF;
+}
+
+@font-face {
+  font-family: 'sansitaone';
+  src: url('/fonts/SansitaOne.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: 'fira sans', sans-serif;
+  padding-bottom: 70px;
+}
+
+h1, h2 {
+  font-family: 'sansitaone', sans-serif;
+  color: var(--color-primary);
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
